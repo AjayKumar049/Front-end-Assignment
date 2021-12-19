@@ -1,3 +1,0 @@
-# Front-end-Assignment
-
-1.WIKIPAGES OF FEW CELIBRITIES
