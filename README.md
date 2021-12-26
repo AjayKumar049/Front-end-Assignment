@@ -8,3 +8,5 @@ Assignment 3 - Prepare a wikipage of few celebrities on clik on their name shold
 Assignment 4 - Form with all the input types using HTML.
 
 Assignment 5 -  Prepare a HTML Page Using Css properties.
+
+Assignment 6 - Create fancy tables and apply for 3rd Assignment and also applied your method.
