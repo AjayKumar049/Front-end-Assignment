@@ -12,3 +12,7 @@ Assignment 5 -  Prepare a HTML Page Using Css properties.
 Assignment 6 - Create fancy tables and apply for 3rd Assignment and also applied your method.
 
 Assignment 7 - Build a Portfolio.
+
+Assignment 8 - create Login form
+
+Assignment 9 - create sign up form
