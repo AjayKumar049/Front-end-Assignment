@@ -1,6 +1,6 @@
 # Front-end-Assignment
 
-Create a pragraph and use all the HTML text formatting tags.
+Assignment 1 - Create a pragraph and use all the HTML text formatting tags.
 
-Prepare a Bio of celebrity using HTML.
+Assignment 2 - Prepare a Bio of celebrity using HTML.
 
