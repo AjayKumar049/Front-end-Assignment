@@ -16,3 +16,9 @@ Assignment 7 - Build a Portfolio.
 Assignment 8 - create Login form
 
 Assignment 9 - create sign up form
+
+Assignment 10 - Print Pattern using While loop OR For loop ...input is only a number.
+
+Assignment 11 - Modified Login form using html and css
+
+Assignment 12 - Initialize a number....Print odd multiples of odd numbers and even multlipies of even numbers..
