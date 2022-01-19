@@ -1,0 +1,107 @@
+<html>
+<head>
+	<title>Assignment11</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+/*Styling the body of html*/
+body {
+  margin: 0;
+  font-family: Arial;
+}
+/*Styling the heading*/
+.header {
+  text-align: center;
+  padding: 32px;
+  color: #9400D3;
+}
+/*Styling the row*/
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/*Styling the Coloumn*/
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+/*Styling the Coloumn images*/
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*adjusting the largescreen size */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/*adjusting the smallscreen size */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>		
+</head>
+<body>
+	<div class="header">
+  <h1> Images Grid Layout</h1>
+ </div>
+	<div class="row">
+	<!--1st Coloumn-->
+	<div class="column">
+				<img src="https://th.bing.com/th/id/R.5f83e745f6e4e35a372ab4929c77b4d4?rik=1JaXws%2bKCXdq9w&riu=http%3a%2f%2fi.dailymail.co.uk%2fi%2fpix%2f2014%2f06%2f09%2farticle-2652712-1E99A66200000578-359_634x460.jpg&ehk=%2b18%2fmvD2VyamXkP%2f1R%2fE6a7pm1UGCMKeWIY4rYM5cc8%3d&risl=&pid=ImgRaw&r=0" style="width:100%">
+				<img src="https://cdn.budgetyourtrip.com/images/photos/headerphotos/large/india_amritsar.jpg" style="width:100%">
+				<img src="https://th.bing.com/th/id/R.c9bf0e33ee053ca9721c9fef97784456?rik=lv7gn2YChBsHFQ&riu=http%3a%2f%2fwww.thehistoryhub.com%2fwp-content%2fuploads%2f2014%2f04%2fRed-Fort.jpg&ehk=PXSuLzMRXdH7oU%2b41HnAsWKuPHqvVLIOU9RQBpxaQLs%3d&risl=1&pid=ImgRaw&r=0" style="width:100%">
+				<img src="https://live.staticflickr.com/523/19603602814_5ba4b9c55c_b.jpg" style="width:100%">
+				<img src="https://i.pinimg.com/originals/7b/8b/cf/7b8bcfe58d832dff28ed587f92b58ad1.jpg" style="width:100%">
+				<img src="https://travelandleisureindia.in/wp-content/uploads/2019/11/Mysore-Palace-feature.jpg" style="width:100%">
+				<img src="https://th.bing.com/th/id/OIP.QweV5Wx8XyKO97blEy4LPgHaE8?pid=ImgDet&rs=1" style="width:100%">
+		</div>
+				<!--2nd Coloumn-->
+				<div class="column">
+					<img src="https://th.bing.com/th/id/OIP.Rkt9BP_lTRoh5EJFpd-yiAHaG-?w=181&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" style="width:100%">
+					<img src="https://th.bing.com/th/id/R.6f56a8d2bb93556806d5d62ecf994cb3?rik=ozfaqq2jUSaD%2bg&riu=http%3a%2f%2fwww.jankarihub.com%2fwp-content%2fuploads%2f2018%2f08%2fFreedom-Fighter-Slogan.jpg&ehk=VIsxE%2bFNIl6M2Gt5sysFDHJUfXqwBdLekweM%2fBP2W%2fo%3d&risl=&pid=ImgRaw&r=0" style="width:100%">
+					<img src="https://th.bing.com/th/id/R.37ceaf9789772cb99ac69df58068cf50?rik=%2bM6QSYVWVO7KQw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-jZ9b60faE9I%2fU-1s0x2-NcI%2fAAAAAAAAAWM%2fd8Nq7bkC31I%2fs1600%2ffreedom-fighters-of-india.jpg&ehk=pg0MhyBLQ0hjdeeWNlcndJHASpLpZTsdq7PJZi2IuqQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" style="width:100%">
+					<img src="https://besttoppers.com/wp-content/uploads/2020/07/top-10-freedom-fighter-of-india.jpg" style="width:100%">
+					<img src="https://www.telegraphindia.com/unsafe/930x523/smart/static.telegraphindia.com/derivative/THE_TELEGRAPH/1766054/16X9/derivative16X91587229201783.jpg" style="width:100%">
+					<img src="https://blog.akbartravels.com/wp-content/uploads/2018/11/unity.jpg" style="width:100%">
+					<img src="https://th.bing.com/th/id/OIP.dUJ3r2da3HINTqNpAPxmFAHaEZ?w=272&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" style="width:100%">
+		</div>
+			<!--3rd Coloumn-->
+			<div class="column">
+					<img src="https://static2.hotcarsimages.com/wordpress/wp-content/uploads/2019/10/Best-BMWs.jpg" style="width:100%">
+					<img src="https://th.bing.com/th/id/OIP.IlzCBWYarKElkdwq5uU9VAHaEK?w=276&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" style="width:100%">
+					<img src="https://th.bing.com/th/id/OIP.VqCDS-EBFa991XIpul88uQHaE8?pid=ImgDet&rs=1" style="width:100%">
+					<img src="https://www.buick.com/content/dam/buick/na/us/en/index/vehicles/2021/crossovers-suvs/encore-gx/features/performance/01-images/2021-encoregx-feat-perf-lg-21BUGX00043.jpg?imwidth=960" style="width:100%">
+					<img src="https://images.hgmsites.net/hug/tesla-model-x_100777013_h.jpg" style="width:100%">
+					<img src="https://cdn.motor1.com/images/mgl/3KzZR/s1/2021-hyundai-elantra-exterior-front-quarter.jpg" style="width:100%">
+					<img src="https://marutistoragenew.blob.core.windows.net/msilintiwebimages/dzire_newmay17/interior-car.png" style="width:100%">
+		</div>
+			<!--4th Coloumn-->
+			<div class="column">
+					<img src="https://www.thebetterindia.com/wp-content/uploads/2018/07/Roads_of_Agumbe.jpg" style="width:100%">
+					<img src="https://tripraja.com/wp-content/uploads/2019/03/dandeli-jungle-walk.jpg" style="width:100%">
+					<img src="https://i.ytimg.com/vi/HAcM3Rwgvis/maxresdefault.jpg" style="width:100%">
+					<img src="https://www.karnataka.com/wp-content/uploads/2008/10/Bannerghatta-National-Park-Tiger.jpg" style="width:100%">
+					<img src="https://www.adotrip.com/public/images/areas/5c6cf2e8c41be-Bannerghatta%20National%20Park%20Places%20to%20See.jpg" style="width:100%">
+					<img src="https://srisailamtourism.com/images/places-to-visit/srisailam-dam-tourism-entry-fee-timings-holidays-reviews-header.jpg" style="width:100%">
+					<img src="https://th.bing.com/th/id/OIP.7Kn2vEUsqMhZlr-BFddxNwHaE7?pid=ImgDet&rs=1" style="width:100%">
+		</div>
+		</div>
+		</div>
+</body>
+</html>
