@@ -18,3 +18,11 @@ Assignment 8 - Create login form.
 
 Assignment 9 - Create signup form.
 
+Assignment 10 - Printing pattern using for loop.
+
+Assignment 11 - Printing Odd multiples of odd num and even multiple of even number using forloop.
+
+Assignment 12 - updated login form
+
+Assignment 13 - image grid layout using bootstrap.
+
