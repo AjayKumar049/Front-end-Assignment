@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Javascript</title>
+<script>
+	var people = [
+		{"firstName":"Abhinav","lastName":
+		"Kashayap","age":25},
+		{"firstName":"Abhi","lastName":
+		"W","age":18},
+		{"firstName":"naga","lastName":
+		"Tend","age":35},
+		{"firstName":"aarthi","lastName":
+		"PM","age":18},
+		]
+	let ages = people.map(person => {
+		return person.age>18;
+		});
+		console.log(ages);
+	let filteredlist = 
+	people.filter(person=> person.age>18 );
+	console.log(filteredlist);
+	let sum = 
+	people.reduce(
+	(total, person)=>total+person.age,0)
+	console.log(sum);
+	
+</script>
+</head>
+<body>
+</script>
+</body>
+</html>
