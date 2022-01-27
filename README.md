@@ -22,7 +22,7 @@ Assignment 10 - Printing pattern using for loop.
 
 Assignment 11 - Printing Odd multiples of odd num and even multiple of even number using forloop.
 
-Assignment 12 - updated login form
+Assignment 12 - image grid layout using bootstrap.
 
-Assignment 13 - image grid layout using bootstrap.
+Assignment 13 - Updated loginform.
 
