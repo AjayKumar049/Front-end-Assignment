@@ -1,0 +1,44 @@
+<html>
+<head>
+<script>
+	function calfun()
+	{
+		var a=parseInt(document.getElementById('number').value);
+		var b=parseInt(document.getElementById('numbers').value);
+		document.getElementById('Result').innerHTML=a+b;
+	}
+	function calfun1()
+	{
+		var a=parseInt(document.getElementById('number').value);
+		var b=parseInt(document.getElementById('numbers').value);
+		document.getElementById('Result').innerHTML=a-b;
+	}
+	function calfun2()
+	{
+		var a=parseInt(document.getElementById('number').value);
+		var b=parseInt(document.getElementById('numbers').value);
+		document.getElementById('Result').innerHTML=a*b;
+	}
+	function calfun3()
+	{
+		var a=parseInt(document.getElementById('number').value);
+		var b=parseInt(document.getElementById('numbers').value);
+		document.getElementById('Result').innerHTML=a/b;
+	}
+		
+	</script>
+</head>
+<body>
+<!--Input Section Start-->
+	1st number :
+	<input type="number" value="" id="number"><br>
+	2nd number :
+	<input type="number" value="" id="numbers"><br>
+	<input type="button" value="plus" onclick="return calfun()">
+	<input type="button" value="minus" onclick="return calfun1()"><br>
+	<input type="button" value="multliplication" onclick="return calfun2()">
+	<input type="button" value="division" onclick="return calfun3()"><br>
+	The Result is : <br>
+	<span id="Result"></span>
+</body>
+</html>

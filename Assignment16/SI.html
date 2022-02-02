@@ -1,0 +1,23 @@
+<html>
+<head>
+	<script>
+	function calculate()
+	{
+		p = document.getElementById("p").value;
+		n = document.getElementById("n").value;
+		r = document.getElementById("r").value;
+		result = document.getElementById("result");
+		result.innerHTML= "The intrest is" + (p*n*r/100);
+	}
+		
+	</script>
+</head>
+<body>
+<!--input section start-->
+	Principal Amount: <input id="p"><br>
+	Rate: <input id="r"><br>
+	No of years: <input id="n"><br>
+	<button onClick="calculate()">Calculate</button>
+	<p id="result"></p>
+</body>
+</html>
