@@ -1,0 +1,213 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    width:100%;
+    height: auto;
+    font-family: 'cookie', cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+.banner{
+    width:1600px;
+    height: 800px;
+    background-image: url("vvv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.nav{
+    width:90%;
+    height: auto;
+    background-color: green;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width:50%;
+    height: 60px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transition-duration: .5s;
+    font-size: 40px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(8, 7, 7);
+    font-weight: bolder;
+    transition-duration: .5s;
+    color: rgb(255, 255, 255);
+}
+.menu a:hover{
+    border-bottom: 5px solid rgb(13, 99, 126);
+}
+.text{
+    width:100%;
+    position: relative;
+    top:40px;
+    left: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.text h1{
+    color:#0000ff;
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+.text .date{
+    color:#0000ff;
+    background-color: rgb(238, 130, 238);
+    padding: 5px;
+    border-radius: 20px 0 10px 0;
+    transition-duration: .5s;
+}
+.text .date:hover{
+    background-color: rgb(73, 62, 62);
+    color:rgb(13, 99, 126);
+    color: white;
+}
+.section{
+    width:100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.us{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgb(46, 0, 133);
+}
+.us img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.section h2{
+    width:100%;
+    text-align: center;
+    color:rgb(13, 99, 126);
+    font-size: 60px;
+}
+.us1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+.us1 span{
+    color:#fff;
+    font-size: 40px;
+    padding: 8px;
+    background-color: rgb(13, 99, 126);
+    border-radius: 8px;
+}
+.venue{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgb(46, 0, 133);
+}
+.venue img{
+    width:1500px;
+    height: 300px;
+    display: inline;
+    border:2px solid rgb(13, 99, 126);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.venue p{
+    font-size: 21px;
+    line-height: 30px;
+    color:#333;
+}
+
+.party{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgb(46, 0, 133);
+}
+.party img{
+    width:50%;
+    height: 300px;
+    display: inline;
+    border:2px solid rgb(13, 99, 126);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.party p{
+    font-size: 22px;
+    line-height: 30px;
+    color:#333;
+}
+footer{
+    width:100%;
+    height: auto;
+    color:#ddd;
+    font-size: 30px;
+    font-family: monospace;
+    background-color: #555;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer i{
+    color:skyblue;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
