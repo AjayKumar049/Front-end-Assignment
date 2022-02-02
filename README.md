@@ -29,3 +29,5 @@ Assignment 13 - Updated loginform.
 Assignment 14 -  Declaring one var Object and apply the methods such as map,filter,reduce.
 
 Assignment 15 - Build a Wedding invition Website Using HTML and CSS.
+
+Assignment 16 - Build a Simple Calculator Only Two Numbers and also build Simple intrest Calculator input Such as PTR Using Html, CSS & Javascript.
