@@ -26,3 +26,6 @@ Assignment 12 - image grid layout using bootstrap.
 
 Assignment 13 - Updated loginform.
 
+Assignment 14 -  Declaring one var Object and apply the methods such as map,filter,reduce.
+
+Assignment 15 - Build a Wedding invition Website Using HTML and CSS.
