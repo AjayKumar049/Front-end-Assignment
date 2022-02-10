@@ -1,0 +1,28 @@
+/*hole html page styling*/
+body{
+	background-color: #ADFF2F;
+}
+/*container1 styling*/
+.container1{
+	display: flex;
+	justify-content: space-evenly;
+	height: 200px ;
+}
+/*container2 styling*/
+.container2{
+	display: flex;
+	justify-content: space-evenly;
+	height: 200px;
+}
+/*button styling*/
+button{
+	height: 100px;
+	width: 100px;
+	margin: 30px;
+	background-color: #7CFC00;
+}
+/*h1 tag styling*/
+h1{
+	font-size: 80px;
+	color: blue;
+}
