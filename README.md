@@ -37,3 +37,5 @@ Assignment 17 - Change Background Color on Click Button using Html, Css, & Javas
 Assignment 18 - Build a Drum Kit Using Html, Css & Javascript.
 
 Assignment 19 - Update Different heading based on scroll, & mouse events using Html and JS.
+
+Assignment 20 - Illustrate closures in JS.
