@@ -39,3 +39,5 @@ Assignment 18 - Build a Drum Kit Using Html, Css & Javascript.
 Assignment 19 - Update Different heading based on scroll, & mouse events using Html and JS.
 
 Assignment 20 - Illustrate closures in JS.
+
+Assignment 21 - Make api Call and log or load the data on the page, if possible transform the response of the API Using js and html.
