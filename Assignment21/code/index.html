@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>JS</title>
+	<h1>Make api Call and log or load the data on the page, if possible transform the response of the API</h1>
+</head>
+<body>
+	<script>
+		const request = new XMLHttpRequest();
+		request.open("GET", "https://jsonplaceholder.typicode.com/users");
+		request.send();
+		request.onload = ()=>{
+			console.log(JSON.parse(request.response));
+			if(request.status === 200){
+				console.log(request,response);
+		} 
+	}
+	</script>
+</body>
+</html>
