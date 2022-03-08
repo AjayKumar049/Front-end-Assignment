@@ -41,3 +41,5 @@ Assignment 19 - Update Different heading based on scroll, & mouse events using H
 Assignment 20 - Illustrate closures in JS.
 
 Assignment 21 - Make api Call and log or load the data on the page, if possible transform the response of the API Using js and html.
+
+Assignment 22 - Example on Event Bubbling in Javascript.
