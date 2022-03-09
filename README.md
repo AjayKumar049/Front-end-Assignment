@@ -45,3 +45,5 @@ Assignment 21 - Make api Call and log or load the data on the page, if possible 
 Assignment 22 - Example on Event Bubbling in Javascript.
 
 Assignment 23 - Example on Event Capturing in Javascript .
+
+Assignment 24 - Event bubbling vs event capturing in Javascript.
