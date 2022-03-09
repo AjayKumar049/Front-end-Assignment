@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<style>
+	   body {
+		  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		  background-color: #DC143C;
+	   }
+	   .result {
+		  font-size: 35px;
+		  font-weight: 500;
+		  color: #7CFC00;
+	   }
+	   .outer {
+		  display: inline-block;
+		  width: 400px;
+		  height: 200px;
+		  font-size: 20px;
+		  background-color: chartreuse;
+	   }
+	   .inner {
+		  width: 200px;
+		  height: 100px;
+		  font-size: 20px;
+		  background-color: blueviolet;;		  
+		  text-align: center;
+		  margin: 20px;
+		   }
+	   .tags {
+		  display: inline-block;
+		  width: 400px;
+		  font-weight: bold;
+		  font-size: 18px;
+	   }
+	</style>
+</head>
+<body>
+	<center>
+	<h1>Event bubbling vs event capturing</h1>
+	<div class="outer">
+	OUTER
+	<div class="inner">INNER</div>
+	</div>
+	<div class="outer">
+	OUTER
+	<div class="inner">INNER</div>
+	</div>
+	<br />
+	<div class="tags">Bubbling</div>
+	<div class="tags">Capturing</div>
+	<div class="result"></div>
+	</center>
+	<script>
+	let outerDiv = document.querySelectorAll(".outer");
+	   let innerDiv = document.querySelectorAll(".inner");
+	   let resEle = document.querySelector(".result");
+	   outerDiv[0].addEventListener("click", () => {
+		  resEle.innerHTML += "Outer div has been clicked" + "<br>";
+	   });
+	   innerDiv[0].addEventListener("click", () => {
+		  resEle.innerHTML = "";
+		  resEle.innerHTML += "Inner div has been clicked" + "<br>";
+	   });
+	   outerDiv[1].addEventListener("click",() => {
+		  resEle.innerHTML = "";
+		  resEle.innerHTML += "Outer div has been clicked" + "<br>";
+	   },true);
+	   innerDiv[1].addEventListener("click",() => {
+		  resEle.innerHTML += "Inner div has been clicked" + "<br>";
+	   }, true);
+	</script>
+</body>
+</html>
