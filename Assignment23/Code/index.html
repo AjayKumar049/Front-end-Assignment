@@ -1,0 +1,73 @@
+<!DocType html>
+<html>
+<head>
+	<title>js</title>
+	<!--Styling the div section-->
+	<style>
+	.divstyle{
+      display:table-cell;
+      border: 2px solid black;
+      padding: 60px;
+      text-align: center;
+	  background-color: #87CEEB;
+	   }
+	   <!--Styling the div section ends-->
+	   <!--Styling the tag i.e. h1 section-->
+	   h1{
+		font-size: 30px;
+		}
+		<!--Styling the tag i.e. h1 section ends-->
+		<!--Styling the tag i.e. h2 section-->
+		h2{
+		font-size: 30px;
+		}
+		<!--Styling the tag i.e. h2 section-->
+		<!--Styling the tag i.e. p section-->
+		p{
+		font-size: 30px;
+		}
+		<!--Styling the tag i.e. p section ends-->
+		<!--Styling the tag i.e. h3 section-->
+		h3{
+		font-size: 30px;
+		}
+		<!--Styling the tag i.e. h3 section ends-->
+		</style>
+</head>
+<body>
+		<center>
+		<!--heading section tag i.e. h1 Start-->
+		<h1>Event Capturing In Javascript</h1>
+		<!--heading section tag i.e. h1 ends-->
+		<!--heading section tag i.e. h2 Start-->
+		<h2>Definition</h2>
+		<!--heading section tag i.e. h2 ends-->
+		<!--Paragraph section tag i.e. p Start-->
+		<p><b>Event capturing</b> is the event starts from top element to the target element. It is the opposite of <b>Event bubbling</b>, which starts from target element to the top element.</p>
+		<!--Paragraph section tag i.e. p ends-->
+		<!--heading section tag i.e. h3 Start-->
+		<h3>Example</h3>
+		<!--heading section tag i.e. h3 ends-->
+		<!--div section Start-->
+		 <div id = "div1" class="divstyle">
+		div1
+		<div id = "div2" class="divstyle">
+		div2
+		<div id = "div3" class="divstyle">
+		div3
+		<!--div section ends-->
+	   </center>
+	   <!--Adding the functionality to html code and targeting all id Selector in css using Js Start-->
+		<script>
+		   var divs = document.getElementsByTagName("div");
+		   for(var i = 0; i<divs.length; i++){
+			  divs[i].addEventListener("click",clickhandler,true );
+		   }
+		   function clickhandler() {
+			  alert(this.getAttribute("id") + "event got handled");
+		   }
+		</script>
+		<!--Adding the functionality to html code and targeting all id Selector in css using Js Ends-->
+</body>
+</html>
+
