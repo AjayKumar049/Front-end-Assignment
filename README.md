@@ -43,3 +43,5 @@ Assignment 20 - Illustrate closures in JS.
 Assignment 21 - Make api Call and log or load the data on the page, if possible transform the response of the API Using js and html.
 
 Assignment 22 - Example on Event Bubbling in Javascript.
+
+Assignment 23 - Example on Event Capturing in Javascript .
