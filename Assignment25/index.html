@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>javascript</title>
+	<style>
+		body{
+			background-color: #00FF00;
+			}
+	</style>
+</head>
+<body>
+	<h1 style="color:#0000FF;">Finding the Kth largest and Kth smallest number in an array</h1>
+	<script>
+		/*Declaring the variable*/
+		let kthArr = [17,21,36,22,15,43,45];
+		/* First Converted the variable into Ascending Order using sort method*/
+		document.write("Sort Array is",kthArr.sort());
+		/*Next line*/
+		document.write("<br>");
+		/* Finding the KthSmallest Number in an array*/
+		document.write(" KthSmallest element Array is",kthArr.sort()[0]);
+		/*Next line*/
+		document.write("<br>");
+		/* Finding the KthHighest Number in an array*/
+		document.write(" KthHighest element Array is",kthArr.sort()[6]);
+	</script>
+	<h2 style="color:#0000FF;">Finding the Occurrence Of Integer in the array</h2>
+	<script>
+			const arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
+			const counts = {};
+				for (const num of arr) {
+				counts[num] = counts[num] ? counts[num] + 1 : 1;
+			}
+			document.write(counts[5], counts[2], counts[9],counts[4]);
+	</script>
+</body>
+</html>
+
+
+
