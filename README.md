@@ -53,3 +53,5 @@ Assignment 23 - Example on Event Capturing in Javascript .
 Assignment 24 - Event bubbling vs event capturing in Javascript.
 
 Assignment 25 - find the kth largest and kth smallest no in an array & find the occurrence of integer in the array using js.
+
+Assignment 26 - JQuery Example.
