@@ -1,0 +1,35 @@
+<html>
+   <head>
+      <title>The JQuery Example</title>
+      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+		<script>
+         $(document).ready(function() {
+            $("li").filter(".middle").addClass("selected");
+         });
+      </script>
+		 <style>
+         .selected { color:red; }
+      </style>
+</head>
+<body>
+	<p><b>Filtering out Elements</b><br>
+	The <b>filter( selector )</b> method can be used to filter out all elements from the set of matched elements that do not match the specified selector(s). The selector can be written using any selector syntax.</p>
+	<h2>Following is a simple example which applies color to the lists associated with middle class</h2>
+	<div>
+         <ul>
+            <li class = "top">list item 1</li>
+            <li class = "top">list item 2</li>
+            <li class = "middle">list item 3</li>
+            <li class = "middle">list item 4</li>
+            <li class = "bottom">list item 5</li>
+            <li class = "bottom">list item 6</li>
+         </ul>
+      </div>
+   </body>
+</html>
+
+	
+
+
