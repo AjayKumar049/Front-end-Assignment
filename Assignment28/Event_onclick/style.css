@@ -1,0 +1,25 @@
+img{
+    height: 200px;
+    width: 200px;
+    
+}
+body{
+    border: 1px solid blueviolet;
+    background-color: aqua;
+}
+/*adjusting the largescreen size */
+@media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  /*adjusting the smallscreen size */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
