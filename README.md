@@ -57,3 +57,5 @@ Assignment 25 - find the kth largest and kth smallest no in an array & find the 
 Assignment 26 - JQuery Example.
 
 Assignment 27 - Difference between Let, Var & Constant in JS.
+
+Assignment 28 - Playing different animal sounds using Html, Css & Javascript.
