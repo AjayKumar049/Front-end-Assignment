@@ -1,0 +1,33 @@
+/*Education Section Styling*/
+table{
+    max-width: 60%;
+    margin-left: 200px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-evenly;
+   
+ }  
+
+ h2{
+    margin-left: 200px;
+    color: #ffa5f0;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    
+ }
+
+ .navbar-brand{
+    color: rgb(128, 128, 0);
+    font-size: x-large;
+    
+}
+
+span{
+    color: blueviolet;
+}
+
+.navbar-nav{
+    font-size: large;
+}
