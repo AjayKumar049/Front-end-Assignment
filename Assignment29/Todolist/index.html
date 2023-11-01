@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todolist</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+  <div>
+    <label for="taskname">Task Name:</label>
+    <input type="text" id="taskname" placeholder="Enter task name">
+  </div>
+  <div>
+    <label for="startdate">Start Date:</label>
+    <input type="date" id="startdate">
+  </div>
+  <div>
+    <label for="enddate">End Date:</label>
+    <input type="date" id="enddate">
+  </div>
+  <button onclick="addTask()">Add Task</button>
+  <table>
+    <thead>
+      <tr>
+        <th>Task Name</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+      </tr>
+    </thead>
+    <tbody id="taskList">
+      <!-- Task items will be added here -->
+    </tbody>
+  </table>
+
+
+    <script src="todo.js"></script>
+</body>
+</html>
