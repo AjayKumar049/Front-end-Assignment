@@ -34,10 +34,6 @@ Assignment 16 - Build a Simple Calculator Only Two Numbers and also build Simple
 
 Assignment 17 - Change Background Color on Click Button using Html, Css, & Javascript. 
 
-Assignment 25 - i.Find the Kth largest & Kth smallest number in an array using js. 
-                ii.Find the Occurrence of integer in the array using js.
-            
-
 Assignment 18 - Build a Drum Kit Using Html, Css & Javascript.
 
 Assignment 19 - Update Different heading based on scroll, & mouse events using Html and JS.
