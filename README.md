@@ -1,57 +1,53 @@
-# Front-end-Assignment
+# 💻 Frontend Assignments Repository
 
-Assignment 1 - Create a pragraph and use all the HTML text formatting tags.
+This repository contains 28 frontend development assignments designed to strengthen your skills in **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. These exercises range from basic webpage building to interactive components, API calls, and DOM manipulation.
 
-Assignment 2 - Prepare a Bio of celebrity using HTML.
+---
 
-Assignment 3 - Prepare a wikipage of few celebrities on clik on their name should take their wikipage using html.
+## 📘 Assignment List
 
-Assignment 4 - Form with all the input types using html.
+### 🟠 HTML & Basic Formatting
 
-Assignment 5 - Prepare a HTML Page Using Css properties.
+1. Create a paragraph using all HTML text formatting tags  
+2. Bio of a celebrity using HTML  
+3. Wikipedia page links for celebrities (click to open real Wiki pages)  
+4. HTML form with all input types  
+5. Styled HTML page using CSS  
 
-Assignment 6 - Create a fancy table and apply for 3rd assignment and also applied your method.
+### 🟡 Intermediate Layouts and Forms
 
-Assignment 7 - Build a Portfolio.
+6. Fancy table (linked with celebrity data)  
+7. Build a personal portfolio  
+8. Create a login form  
+9. Create a signup form  
+10. Pattern printing using JavaScript loops  
+11. Print odd multiples of odd & even multiples of even numbers  
 
-Assignment 8 - Create login form.
+### 🔵 Bootstrap & Grid
 
-Assignment 9 - Create signup form.
+12. Create image grid layout using Bootstrap  
+13. Updated login form with better layout  
 
-Assignment 10 - Printing pattern using for loop.
+### 🟢 JavaScript Fundamentals
 
-Assignment 11 - Printing Odd multiples of odd num and even multiple of even number using forloop.
+14. Object with `map()`, `filter()`, and `reduce()` methods  
+15. Build a wedding invitation website using HTML & CSS  
+16. Simple calculator and interest calculator (PTR)  
+17. Change background color on button click  
+18. Drum kit web app  
+19. Change heading based on scroll and mouse events  
+20. Illustrate closures in JavaScript  
 
-Assignment 12 - image grid layout using bootstrap.
+### 🔴 DOM Events & APIs
 
-Assignment 13 - Updated loginform.
+21. Make API call and log/load data to the page  
+22. Example on event bubbling  
+23. Example on event capturing  
+24. Event bubbling vs event capturing comparison  
 
-Assignment 14 -  Declaring one var Object and apply the methods such as map,filter,reduce.
+### ⚫ Algorithmic Challenges
 
-Assignment 15 - Build a Wedding invition Website Using HTML and CSS.
-
-Assignment 16 - Build a Simple Calculator Only Two Numbers and also build Simple intrest Calculator input Such as PTR Using Html, CSS & Javascript.
-
-Assignment 17 - Change Background Color on Click Button using Html, Css, & Javascript. 
-
-Assignment 18 - Build a Drum Kit Using Html, Css & Javascript.
-
-Assignment 19 - Update Different heading based on scroll, & mouse events using Html and JS.
-
-Assignment 20 - Illustrate closures in JS.
-
-Assignment 21 - Make api Call and log or load the data on the page, if possible transform the response of the API Using js and html.
-
-Assignment 22 - Example on Event Bubbling in Javascript.
-
-Assignment 23 - Example on Event Capturing in Javascript .
-
-Assignment 24 - Event bubbling vs event capturing in Javascript.
-
-Assignment 25 - find the kth largest and kth smallest no in an array & find the occurrence of integer in the array using js.
-
-Assignment 26 - JQuery Example.
-
-Assignment 27 - Difference between Let, Var & Constant in JS.
-
-Assignment 28 - Playing different animal sounds using Html, Css & Javascript.
+25. Find Kth largest & smallest number and count occurrences in array  
+26. jQuery example  
+27. Difference between `let`, `var`, and `const`  
+28. Play different animal sounds  
