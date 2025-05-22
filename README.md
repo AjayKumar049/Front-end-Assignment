@@ -30,7 +30,7 @@ This repository contains 28 frontend development assignments designed to strengt
 
 ### 🟢 JavaScript Fundamentals
 
-14. Object with `map()`, `filter()`, and `reduce()` methods  
+14. Array methods in Javascript and Object with `map()`, `filter()`, and `reduce()` methods  
 15. Build a wedding invitation website using HTML & CSS  
 16. Simple calculator and interest calculator (PTR)  
 17. Change background color on button click  
